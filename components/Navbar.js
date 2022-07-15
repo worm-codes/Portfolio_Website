@@ -5,10 +5,12 @@ import styles from "../styles/Navbar.module.css";
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 
+
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
   const {asPath} = useRouter();
+  
 
   useEffect(() => {
     setExpandNavbar(false);
@@ -26,9 +28,9 @@ function Navbar() {
         </button>
       </div>
       <div className={styles.links}>
-        <Link href="/"> Home </Link>
-        <Link href="/projects"> Projects </Link>
-        <Link href="/experience"> Experience </Link>
+        <Link href="/">Home</Link>
+        <Link href="/projects">Projects</Link>
+        <Link href="/experience">Experience</Link>
       </div>
     </div>
   );
