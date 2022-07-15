@@ -29,7 +29,7 @@ function Navbar() {
       </div>
       <div className={styles.links}>
         <Link href="/">Home</Link>
-        <Link href="/projects">Projects</Link>
+        <Link href="/project">Projects</Link>
         <Link href="/experience">Experience</Link>
       </div>
     </div>

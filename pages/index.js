@@ -4,6 +4,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
 import styles from "../styles/Home.module.css";
 
+
+
 function Home() {
   return (
     <div className={styles.home}>
@@ -23,7 +25,7 @@ function Home() {
           <li className={styles.item}>
             <h2> Front-End</h2>
             <span>
-              ReactJS, ContextAPI, HTML5, CSS3, NPM,
+              , ContextAPI, HTML5, CSS3, NPM,
                BootStrap, MaterialUI, NextJS
             </span>
           </li>
