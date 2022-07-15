@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from 'next/link'
 import { useRouter } from "next/router";
 import styles from "../styles/Navbar.module.css";
+import ReorderIcon from '@mui/icons-material/Reorder';
 
 
 function Navbar() {
@@ -21,7 +22,7 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
         >
-         
+          <ReorderIcon />
         </button>
       </div>
       <div className={styles.links}>
