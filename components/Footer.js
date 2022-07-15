@@ -12,7 +12,7 @@ function Footer() {
         <a target="_newblank" href="https://github.com/worm-codes"><GitHubIcon/></a> 
         <a target="_newblank" href="https://www.linkedin.com/in/oguzhancevikk/"><LinkedInIcon /></a> 
       </div>
-      <p> &copy; 2022 Oguzhan</p>
+      <p> &copy; 2022 Oğuzhan ÇEVİK</p>
     </div>
   );
 }
