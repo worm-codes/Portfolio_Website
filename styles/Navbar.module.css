@@ -2,6 +2,8 @@
   width: 100%;
   height: 100px;
   background: #21325e;
+  position: fixed;
+  z-index: 200;
 }
 
 .links {

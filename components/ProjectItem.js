@@ -7,7 +7,7 @@ function ProjectItem({ image, name, id }) {
     <div
       className={styles.projectItem}
       onClick={() => {
-        window.location.href="/project/" + id+"#content"
+        window.location.href="/project/" + id+"#somethin"
        
       }}
     >

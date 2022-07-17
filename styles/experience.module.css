@@ -1,0 +1,15 @@
+.experience{
+    margin-top: 100px;
+}
+
+.experience a{
+    text-decoration:none;
+    color:rgb(37 69 213);
+}
+
+@media (max-width:500px){
+.experience p{
+    font-size: 17px;
+}
+}
+

@@ -6,7 +6,7 @@ import styles from "../../styles/Project.module.css";
 const index = () => {
   return (
        <div className={styles.projects}>
-      <h1> My Personal Projects</h1>
+      <h1> My Projects</h1>
       <div className={styles.projectList}>
         {ProjectList.map((project, idx,i) => {
           return (

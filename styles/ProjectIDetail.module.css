@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    
+    margin-top: 100px;
 
 
   display: flex;
@@ -22,7 +22,7 @@
 
 
 .project p {
-  font-size: 32px;
+  font-size: 24px;
   word-break: break-all;
   color: #3e497a;
 }

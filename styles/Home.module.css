@@ -3,6 +3,7 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #3e497a;
+  margin-top: 100px;
 }
 
 .about {
@@ -50,6 +51,7 @@
 .skills .list {
   list-style: none;
   width: 60%;
+  margin-top: 0;
 }
 
 .list span {
@@ -99,3 +101,45 @@
     font-size: 30px;
   }
 }
+
+
+.skill_button {
+  margin-top: 15px;
+  font-size: 18px;
+  color:#21325e;
+  background-color: white;
+  animation: shake 1.6s cubic-bezier(.36, .07, .19, .97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+.skill_button:hover{
+  color:white;
+  background-color: #21325e;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(0, -1px, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(0, 2px, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(0, -4px, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(0, 4px, 0);
+  }
+}
+
+
+
+
+
+
