@@ -18,12 +18,12 @@ function Home() {
   return (
     <div className={styles.home}>
       <div className={styles.about}>
-        <h2> Hi, My Name is Oğuzhan</h2>
+        <h2> Hi, My Name is Oğuzhan...</h2>
         <div className={styles.prompt}>
           <p>A Full-Stack developer, deploying web applications from scratch, and selecting the technologies most suitable for each project.</p>
           
           <a target="_newblank" href="https://www.linkedin.com/in/oguzhancevikk/"><LinkedInIcon /></a> 
-          <a target="_newblank" href="mailto: oguzhan0553283@gmail.com"><EmailIcon /></a>
+          <a target="_newblank" href="mailto: oguzhan728@gmail.com"><EmailIcon /></a>
          <a target="_newblank" href="https://github.com/worm-codes"><GithubIcon /></a> 
         </div>
        <Button size="large" onClick={handleClick} className={styles.skill_button} variant="contained">SKILLS<SwipeDownRoundedIcon/></Button>

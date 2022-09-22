@@ -19,11 +19,11 @@ import styles from "../../styles/experience.module.css"
   return  (
     <div className={styles.experience} >
     <div>
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="black">
       <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2017 Sep - 2018 Jan"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "black", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -39,7 +39,7 @@ import styles from "../../styles/experience.module.css"
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018 Sep - 2022 Jun"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "black", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">

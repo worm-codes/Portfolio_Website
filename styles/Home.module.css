@@ -2,7 +2,7 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #3e497a;
+  color: black;
   margin-top: 100px;
 }
 
@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-color: black;
   color: #f0f0f0;
 }
 
@@ -22,7 +22,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
   color: #e9d35b;
-  height: 50px;
+ 
 }
 
 .about .prompt {
@@ -45,7 +45,7 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: black;
 }
 
 .skills .list {
@@ -56,6 +56,27 @@
 
 .list span {
   font-size: 20px;
+}
+@media (min-width:948px){
+  .about h2{
+    width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  }
+ 
+  @keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 }
 @media (max-width:948px){
    .about h2 {
@@ -106,7 +127,7 @@
 .skill_button {
   margin-top: 15px;
   font-size: 18px;
-  color:#21325e;
+  color:black;
   background-color: white;
   animation: shake 1.6s cubic-bezier(.36, .07, .19, .97) both infinite;
   transform: translate3d(0, 0, 0);
@@ -115,7 +136,7 @@
 }
 .skill_button:hover{
   color:white;
-  background-color: #21325e;
+  background-color: black;
 }
 
 @keyframes shake {
