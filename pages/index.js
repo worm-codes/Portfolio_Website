@@ -35,14 +35,15 @@ function Home() {
           <li className={styles.item}>
             <h2 > Front-End</h2>
             <span>
-              , ContextAPI, HTML5, CSS3, NPM,
-               BootStrap, MaterialUI, NextJS
+               ReactJS, ContextAPI, HTML5, CSS3, NPM,
+               BootStrap, MaterialUI, NextJS(Learning), TypeScript(Learning)
             </span>
           </li>
+          
           <li className={styles.item}>
             <h2 ref={skillRef}>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, MySQL, MongoDB, Socket.IO
+              NodeJS, ExpressJS, MongoDB, Socket.IO
             </span>
           </li>
           <li  className={styles.item}>

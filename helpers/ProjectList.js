@@ -12,29 +12,29 @@ export const ProjectList = [
     name: "Local Guide",
     image: "https://i.im.ge/2022/07/17/FlEflD.png",
     skills: ["Node.js","React","Socket.io","Firebase(Auth)","Bootstrap","HTML5","CSS3","Javascript(ES6)"],
-    github:"https://github.com/worm-codes/Graduation_Project-Local-Guide",
-    videoLink:"https://youtu.be/4c8pnUydxaU"
+    github:"https://github.com/worm-codes/Local-Guide",
+    videoLink:"https://www.youtube.com/embed/4c8pnUydxaU"
   },
   {
-    name: "Spotify Clone",
-    image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80",
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
-    github:"https://github.com/worm-codes/worm-codes"
+    name: "ERP Project",
+    image: "https://i.ibb.co/RQbJPS4/sarah-ireland-morris-web-friendly-removebg-preview-1.png",
+    skills: ["Node.js","MongoDB","Bootstrap","HTML5","CSS3","Javascript(ES6,EJS)"],
+    github:"https://github.com/worm-codes/ERP_Web_based_project",
+    videoLink:"https://www.youtube.com/embed/l6-2yVxLk7w"
   },
   {
-    name: "Social Media Website",
-    image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80",
-    skills: "React,Node.js,MySQL,GraphQL",
-    github:"https://github.com/worm-codes/worm-codes"
+    name: "Oguzhan's World",
+    image: "https://i.ibb.co/TTc8s61/vd.png",
+    skills: ["Node.js","MongoDB","Semantic UI","Bootstrap","HTML5","CSS3","Javascript(ES6,EJS)"],
+    github:"https://github.com/worm-codes/oguzhansworld",
+    videoLink:"https://www.youtube.com/embed/XRkdOgoiS8s"
   },
   {
-    name: "Dashboard Visualizer",
-    image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80",
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80",
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
+    name: "Color Game",
+    image: "https://www.designer-daily.com/wp-content/uploads/2018/08/color-wheel.jpg",
+    github:"https://github.com/worm-codes/ColorGame_ReactNative",
+    videoLink:"https://www.youtube.com/embed/sCrzbP9WaJE",
+    skills: ["React Native, Javascript"],
+  }
+  
 ];

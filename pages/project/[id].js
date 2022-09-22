@@ -27,15 +27,15 @@ const Index = () => {
           
         })
   return project?(
-    <div id="somethin">
-    <div className={styles.project} >
+    <div >
+    <div id="main" className={styles.project} >
       <h1 > {project.name}</h1>
     
-      <iframe  className={styles.video} width={width>600?(width<932?(width-200):'860'):'360'} 
+      <iframe  className={styles.video} width={width>600?(width<932?(width-200):'900'):'370'} 
 
-      height={width>600?(width<932 ?(width-400):'440'):'200'} 
+      height={width>600?(width<932 ?(width-400):'450'):'200'} 
 
-      src="https://www.youtube.com/embed/VvZHQJSGnBA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+      src={project.videoLink} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
     
       <p>
       
