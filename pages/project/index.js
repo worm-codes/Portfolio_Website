@@ -1,3 +1,4 @@
+import { CleaningServices } from "@mui/icons-material";
 import React from "react";
 import ProjectItem from "../../components/ProjectItem";
 import { ProjectList } from "../../helpers/ProjectList";
@@ -9,8 +10,10 @@ const index = () => {
       <h1> My Projects</h1>
       <div className={styles.projectList}>
         {ProjectList.map((project, idx,i) => {
+          
           return (
-            <ProjectItem key={i} id={idx} name={project.name} image={project.image} />
+            
+            <ProjectItem key={idx} id={idx} name={project.name} image={project.image} />
           );
         })}
       </div>

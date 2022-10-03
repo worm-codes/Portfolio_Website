@@ -20,7 +20,7 @@ function Home() {
       <div className={styles.about}>
         <h2> Hi, My Name is Oğuzhan...</h2>
         <div className={styles.prompt}>
-          <p>A Full-Stack developer, deploying web applications from scratch, and selecting the technologies most suitable for each project.</p>
+          <p className={styles.detail}>A Full-Stack developer, deploying web applications from scratch, and selecting the technologies most suitable for each project.</p>
           
           <a target="_newblank" href="https://www.linkedin.com/in/oguzhancevikk/"><LinkedInIcon /></a> 
           <a target="_newblank" href="mailto: oguzhan728@gmail.com"><EmailIcon /></a>
