@@ -93,7 +93,7 @@ const Experience = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 Aug - 2020 Sep"
+            date="2022 Oct - "
             iconStyle={{ background: '#e9d35b', color: '#fff' }}
             icon={<WorkIcon />}
           >
@@ -120,37 +120,6 @@ const Experience = () => {
               </a>
             </p>
           </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 Aug - 2020 Sep"
-            iconStyle={{ background: '#e9d35b', color: '#fff' }}
-            icon={<WorkIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Full Stack Developer (internship)
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Hamdi Küçük Çelik Makina A.Ş. , IT Department
-            </h4>
-            <p>
-              It is Summer Internship, I converted the Hamdi Kucuk ERP program
-              to a Web Application.
-            </p>
-            <p>
-              Skills: Embedded JavaScript (EJS) · Node.js · JavaScript ·
-              Express.js · MongoDB · Git · Bootstrap · HTML5 · CSS3
-            </p>
-            <p>
-              <a
-                target="_newblank"
-                href="https://github.com/worm-codes/ERP_Web_based_project"
-              >
-                Source Code &#8594;
-              </a>
-            </p>
-          </VerticalTimelineElement>
-
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2022 Mar - 2022 Jun"
@@ -192,6 +161,36 @@ const Experience = () => {
               <a
                 target="_newblank"
                 href="https://github.com/worm-codes/Graduation_Project-Local-Guide"
+              >
+                Source Code &#8594;
+              </a>
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2020 Aug - 2020 Sep"
+            iconStyle={{ background: '#e9d35b', color: '#fff' }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Full Stack Developer (internship)
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Hamdi Küçük Çelik Makina A.Ş. , IT Department
+            </h4>
+            <p>
+              It is Summer Internship, I converted the Hamdi Kucuk ERP program
+              to a Web Application.
+            </p>
+            <p>
+              Skills: Embedded JavaScript (EJS) · Node.js · JavaScript ·
+              Express.js · MongoDB · Git · Bootstrap · HTML5 · CSS3
+            </p>
+            <p>
+              <a
+                target="_newblank"
+                href="https://github.com/worm-codes/ERP_Web_based_project"
               >
                 Source Code &#8594;
               </a>
