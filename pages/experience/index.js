@@ -114,7 +114,7 @@ const Experience = () => {
             <p>
               <a
                 target="_newblank"
-                href="https://90pixel.com/"
+                href="https://90pixel.com/en"
               >
                 More About 90Pixel &#8594;
               </a>
