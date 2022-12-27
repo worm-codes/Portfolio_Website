@@ -18,7 +18,7 @@ function Home() {
         <h2> Hi, My Name is Oğuzhan...</h2>
         <div className={styles.prompt}>
           <p className={styles.detail}>
-            A Full-Stack developer, deploying web applications from scratch, and
+            A Frontend Developer, deploying web applications from scratch, and
             selecting the technologies most suitable for each project.
           </p>
 

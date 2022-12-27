@@ -119,6 +119,14 @@ const Experience = () => {
                 More About 90Pixel &#8594;
               </a>
             </p>
+            <p>
+              <a
+                target="_newblank"
+                href="https://epsikolog.com/"
+              >
+                One example of a project I was involved in. &#8594;
+              </a>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
