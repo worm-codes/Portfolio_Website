@@ -166,6 +166,14 @@ const Experience = () => {
                 Source Code &#8594;
               </a>
             </p>
+            <p>
+              <a
+                target="_newblank"
+                href="https://www.linkedin.com/in/ibrahim-e-231746145/"
+              >
+                Reference İbrahim Erkan &#8594;
+              </a>
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -194,6 +202,14 @@ const Experience = () => {
                 href="https://github.com/worm-codes/ERP_Web_based_project"
               >
                 Source Code &#8594;
+              </a>
+            </p>
+            <p>
+              <a
+                target="_newblank"
+                href="https://www.linkedin.com/in/ibrahim-e-231746145/"
+              >
+                Reference İbrahim Erkan &#8594;
               </a>
             </p>
           </VerticalTimelineElement>
