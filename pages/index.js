@@ -59,7 +59,7 @@ function Home() {
             <span>
               ReactJS, ContextAPI, HTML5, CSS3, Styled Components, Motion
               Library, Redux Toolkit, React Query, SCSS, NPM, BootStrap,
-              MaterialUI, NextJS, TypeScript(Learning)
+              MaterialUI, NextJS, TypeScript
             </span>
           </li>
 
