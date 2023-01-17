@@ -108,8 +108,9 @@ const Experience = () => {
             </p>
             <p>
               Skills: Typescript · Redux Toolkit · React-Query · Next.js ·
-              JavaScript · Styled Components · Agile(SCRUM) · ContextAPI ·
-              GitLab · SCSS · HTML5 · CSS3 · React · Motion Library
+              JavaScript · Styled Components · Ant Design · Agile(SCRUM) ·
+              ContextAPI · GitLab · SCSS · HTML5 · CSS3 · React.js · Motion
+              Library
             </p>
             <p>
               <a
@@ -117,14 +118,6 @@ const Experience = () => {
                 href="https://90pixel.com/en"
               >
                 More About 90Pixel &#8594;
-              </a>
-            </p>
-            <p>
-              <a
-                target="_newblank"
-                href="https://epsikolog.com/"
-              >
-                One example of a project I was involved in. &#8594;
               </a>
             </p>
           </VerticalTimelineElement>
@@ -382,9 +375,9 @@ const Experience = () => {
             </h3>
 
             <p>
-              Full Stack Developer Bootcamp(144 hours) is about ReactJS, Node.js
-              and Django and organized by Patika and Alotech. I was also chosen
-              40 out of 800 people for this bootcamp.{' '}
+              Full Stack Developer Bootcamp(144 hours) is about React.js,
+              Node.js and Django and organized by Patika and Alotech. I was also
+              chosen 40 out of 800 people for this bootcamp.{' '}
             </p>
 
             <p>
