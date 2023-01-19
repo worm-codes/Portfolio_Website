@@ -144,17 +144,17 @@
 .skill_button {
   margin-top: 15px;
   font-size: 18px;
-  color:black;
-  background-color: white;
-  animation: shake 1.6s cubic-bezier(.36, .07, .19, .97) both infinite;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px; 
-  transition: color 0.5s, background-color 0.5s;
+  color:black !important;
+  background-color: white  !important;
+  animation: shake 1.6s cubic-bezier(.36, .07, .19, .97) both infinite  !important;
+  transform: translate3d(0, 0, 0)  !important;
+  backface-visibility: hidden  !important;
+  perspective: 1000px  !important;
+  transition: color 0.5s, background-color 0.5s  !important;
 }
 .skill_button:hover{
-  color:white;
-  background-color: black;
+  color:white  !important;
+  background-color: black  !important;
 }
 
 @keyframes shake {
