@@ -120,6 +120,22 @@ const Experience = () => {
                 More About 90Pixel &#8594;
               </a>
             </p>
+            <p>
+              <a
+                target="_newblank"
+                href="https://www.linkedin.com/in/muhittin/"
+              >
+                Reference Co-Founder Muhittin Özer &#8594;
+              </a>
+            </p>
+            <p>
+              <a
+                target="_newblank"
+                href="https://www.linkedin.com/in/kerim-kirpat-4aa99180/"
+              >
+                Reference Co-Founder Kerim Kırpat &#8594;
+              </a>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -171,7 +187,7 @@ const Experience = () => {
                 target="_newblank"
                 href="https://www.linkedin.com/in/ibrahim-e-231746145/"
               >
-                Reference İbrahim Erkan &#8594;
+                Reference IT Manager - İbrahim Erkan &#8594;
               </a>
             </p>
           </VerticalTimelineElement>
@@ -209,7 +225,7 @@ const Experience = () => {
                 target="_newblank"
                 href="https://www.linkedin.com/in/ibrahim-e-231746145/"
               >
-                Reference İbrahim Erkan &#8594;
+                Reference IT Manager - İbrahim Erkan &#8594;
               </a>
             </p>
           </VerticalTimelineElement>
