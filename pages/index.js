@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useRef } from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -15,7 +16,7 @@ function Home() {
   return (
     <div className={styles.home}>
       <div className={styles.about}>
-        <h2> Hi, My Name is Oğuzhan...</h2>
+        <h2> Hello World, I'm Oğuzhan...</h2>
         <div className={styles.prompt}>
           <p className={styles.detail}>
             A Frontend Developer, deploying web applications from scratch, and
