@@ -3,7 +3,7 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: black;
-  margin-top: 100px;
+  margin-top: 50%;
 }
 
 .about {
@@ -147,7 +147,6 @@
   color:black !important;
   background-color: white  !important;
   animation: shake 1.6s cubic-bezier(.36, .07, .19, .97) both infinite  !important;
-  transform: translate3d(0, 0, 0)  !important;
   backface-visibility: hidden  !important;
   perspective: 1000px  !important;
   transition: color 0.5s, background-color 0.5s  !important;
