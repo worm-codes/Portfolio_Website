@@ -12,6 +12,7 @@ export const ProjectList = [
       'Styled-Components',
       'Javascript(ES6,EJS)',
     ],
+    liveLink: 'https://hangman-game-play.vercel.app/',
     github: 'https://github.com/worm-codes/Hangman-TypeScript-Exercise',
     iframeLink: 'https://hangman-game-play.vercel.app/',
   },

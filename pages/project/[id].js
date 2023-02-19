@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { ProjectList } from '../../helpers/ProjectList';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import styles from '../../styles/ProjectIDetail.module.css';
+import WorldIcon from '@mui/icons-material/Language';
 
 import useWindowDimensions from '../../hooks/useWindowDimensions';
 import useResponsive from '../../hooks/useResponsive';
@@ -50,7 +51,7 @@ const Index = () => {
         ) : (
           <iframe
             src={project.iframeLink}
-            width='100%'
+            width="100%"
             height={isTablet ? '850px' : '700px'}
           ></iframe>
         )}
@@ -60,12 +61,24 @@ const Index = () => {
 
           {width < 600 ? list : list2}
         </p>
-        <a
-          target="_newblank"
-          href={project.github}
-        >
-          <GitHubIcon />
-        </a>
+        <div>
+          <a
+            className={styles.hrefMargin}
+            target="_newblank"
+            href={project.github}
+          >
+            <GitHubIcon />
+          </a>
+          {project.liveLink && (
+            <a
+              className={styles.hrefMargin}
+              target="_newblank"
+              href={project.liveLink}
+            >
+              <WorldIcon />
+            </a>
+          )}
+        </div>
       </div>
     </div>
   ) : (
