@@ -1,6 +1,6 @@
 export const ProjectList = [
   {
-    name: 'Hangman - Typescipt Exercise',
+    name: 'Hangman Game',
     image:
       'https://t4.ftcdn.net/jpg/05/17/38/33/360_F_517383341_8nWEFfM1KL3K5LNTjUDrne3x0kZiuxuj.jpg',
     skills: [

@@ -1,10 +1,7 @@
 import styles from '../styles/Project.module.css';
 
 function ProjectItem({ image, name, id }) {
-  let bool = false;
-  if (name == 'ERP Project') {
-    bool = true;
-  }
+  let bool = name == 'ERP Project';
 
   return (
     <div

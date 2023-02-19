@@ -4,9 +4,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import styles from '../../styles/ProjectIDetail.module.css';
 
 import useWindowDimensions from '../../hooks/useWindowDimensions';
+import useResponsive from '../../hooks/useResponsive';
 
 const Index = () => {
   const { width } = useWindowDimensions();
+  const { isTablet } = useResponsive();
   const router = useRouter();
   const { id } = router.query;
 
@@ -48,8 +50,8 @@ const Index = () => {
         ) : (
           <iframe
             src={project.iframeLink}
-            width="800"
-            height="500"
+            width='100%'
+            height={isTablet ? '850px' : '700px'}
           ></iframe>
         )}
 
