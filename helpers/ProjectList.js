@@ -1,5 +1,13 @@
 export const ProjectList = [
   {
+    name: 'Bank Portal Project',
+    image:
+      'https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    skills: ['Typescript', 'Next.js', 'HTML5', 'CSS3', 'Styled-Components'],
+    liveLink: 'https://bank-portfolio.vercel.app/',
+    github: 'https://github.com/worm-codes/bank_portfolio',
+  },
+  {
     name: 'Hangman Game',
     image:
       'https://t4.ftcdn.net/jpg/05/17/38/33/360_F_517383341_8nWEFfM1KL3K5LNTjUDrne3x0kZiuxuj.jpg',
@@ -10,7 +18,6 @@ export const ProjectList = [
       'CSS3',
       'Vite.js',
       'Styled-Components',
-      'Javascript(ES6,EJS)',
     ],
     liveLink: 'https://hangman-game-play.vercel.app/',
     github: 'https://github.com/worm-codes/Hangman-TypeScript-Exercise',
@@ -25,7 +32,7 @@ export const ProjectList = [
       'HTML5',
       'CSS3',
       'GoogleDrive API',
-      'Javascript(ES6,EJS)',
+      'Javascript',
     ],
     github: 'https://github.com/worm-codes/Screenshots_To_Drive',
     videoLink: 'https://www.youtube.com/embed/VvZHQJSGnBA',
@@ -41,7 +48,7 @@ export const ProjectList = [
       'Bootstrap',
       'HTML5',
       'CSS3',
-      'Javascript(ES6)',
+      'Javascript',
     ],
     github: 'https://github.com/worm-codes/Local-Guide',
     videoLink: 'https://www.youtube.com/embed/4c8pnUydxaU',
@@ -50,14 +57,7 @@ export const ProjectList = [
     name: 'ERP Project',
     image:
       'https://i.ibb.co/RQbJPS4/sarah-ireland-morris-web-friendly-removebg-preview-1.png',
-    skills: [
-      'Node.js',
-      'MongoDB',
-      'Bootstrap',
-      'HTML5',
-      'CSS3',
-      'Javascript(ES6,EJS)',
-    ],
+    skills: ['Node.js', 'MongoDB', 'Bootstrap', 'HTML5', 'CSS3', 'Javascript'],
     github: 'https://github.com/worm-codes/ERP_Web_based_project',
     videoLink: 'https://www.youtube.com/embed/l6-2yVxLk7w',
   },
@@ -71,7 +71,7 @@ export const ProjectList = [
       'Bootstrap',
       'HTML5',
       'CSS3',
-      'Javascript(ES6,EJS)',
+      'Javascript',
     ],
     github: 'https://github.com/worm-codes/oguzhansworld',
     videoLink: 'https://www.youtube.com/embed/XRkdOgoiS8s',

@@ -9,8 +9,20 @@
   flex-direction: column;
 }
 .hrefMargin{
-  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
 }
+
+.linkGroup{
+  display: flex;
+}
+.iconAndLink{
+  text-align: center;
+}
+
 .project h1 {
   margin-top: 50px;
   color: black;

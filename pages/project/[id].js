@@ -3,7 +3,7 @@ import { ProjectList } from '../../helpers/ProjectList';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import styles from '../../styles/ProjectIDetail.module.css';
 import WorldIcon from '@mui/icons-material/Language';
-
+import Image from 'next/image';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
 import useResponsive from '../../hooks/useResponsive';
 
@@ -38,7 +38,7 @@ const Index = () => {
       >
         <h1> {project.name}</h1>
 
-        {project.videoLink ? (
+        {project.videoLink && (
           <iframe
             className={styles.video}
             width={width > 600 ? (width < 932 ? width - 200 : '900') : '370'}
@@ -48,13 +48,22 @@ const Index = () => {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
-        ) : (
+        )}
+        {project.iframeLink && (
           <iframe
             style={{ border: 'none' }}
             src={project.iframeLink}
-            width={isTablet ? '380px' : '100%'}
+            width="100%"
             height={isTablet ? '450px' : '700px'}
           ></iframe>
+        )}
+        {project.image && !project.videoLink && (
+          <Image
+            width={width > 600 ? (width < 932 ? width - 200 : '900') : '370'}
+            height={width > 600 ? (width < 932 ? width - 400 : '450') : '200'}
+            src={project.image}
+            alt={project.name}
+          />
         )}
 
         <p>
@@ -62,13 +71,16 @@ const Index = () => {
 
           {width < 600 ? list : list2}
         </p>
-        <div>
+        <div className={styles.linkGroup}>
           <a
             className={styles.hrefMargin}
             target="_newblank"
             href={project.github}
           >
-            <GitHubIcon />
+            <div className={styles.iconAndLink}>
+              <GitHubIcon />
+              <h3>Github</h3>
+            </div>
           </a>
           {project.liveLink && (
             <a
@@ -76,7 +88,10 @@ const Index = () => {
               target="_newblank"
               href={project.liveLink}
             >
-              <WorldIcon />
+              <div className={styles.iconAndLink}>
+                <WorldIcon />
+                <h3>Live</h3>
+              </div>
             </a>
           )}
         </div>
