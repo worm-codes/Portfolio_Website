@@ -50,8 +50,9 @@ const Index = () => {
           ></iframe>
         ) : (
           <iframe
+            style={{ border: 'none' }}
             src={project.iframeLink}
-            width="100%"
+            width={isTablet ? '380px' : '100%'}
             height={isTablet ? '450px' : '700px'}
           ></iframe>
         )}
