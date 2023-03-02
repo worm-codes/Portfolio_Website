@@ -19,8 +19,10 @@ const Index = () => {
     return <li key={i}>{skil}</li>;
   });
 
-  const list2 = project?.skills?.map((skil, i) => {
-    return (
+  const skillList = project?.skills?.map((skil, i) => {
+    return width < 600 ? (
+      <li key={i}>{skil}</li>
+    ) : (
       <span
         style={{ fontSize: '22.375px' }}
         key={i}
@@ -30,6 +32,7 @@ const Index = () => {
       </span>
     );
   });
+
   return project ? (
     <div>
       <div
@@ -45,31 +48,32 @@ const Index = () => {
             height={width > 600 ? (width < 932 ? width - 400 : '450') : '200'}
             src={project.videoLink}
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
         )}
-        {project.iframeLink && (
+        {project.iframeLink ? (
           <iframe
             style={{ border: 'none' }}
             src={project.iframeLink}
             width="100%"
             height={isTablet ? '450px' : '700px'}
           ></iframe>
-        )}
-        {project.image && !project.videoLink && (
-          <Image
-            width={width > 600 ? (width < 932 ? width - 200 : '900') : '370'}
-            height={width > 600 ? (width < 932 ? width - 400 : '450') : '200'}
-            src={project.image}
-            alt={project.name}
-          />
+        ) : (
+          project.image &&
+          !project.videoLink && (
+            <Image
+              width={width > 600 ? (width < 932 ? width - 200 : '900') : '370'}
+              height={width > 600 ? (width < 932 ? width - 400 : '450') : '200'}
+              src={project.image}
+              alt={project.name}
+            />
+          )
         )}
 
         <p>
           <b>Skills:</b>
 
-          {width < 600 ? list : list2}
+          {skillList}
         </p>
         <div className={styles.linkGroup}>
           <a
