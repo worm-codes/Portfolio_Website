@@ -1,5 +1,19 @@
 export const ProjectList = [
   {
+    name: 'CineMood',
+    image: 'https://i.ibb.co/jVfJzgp/cinemood-Logo.png',
+    skills: [
+      'OpenAI',
+      'Next.js',
+      'HTML5',
+      'CSS3',
+      'Styled-Components',
+      'omdbAPI',
+    ],
+    liveLink: 'https://cine-mood.vercel.app/',
+    github: 'https://github.com/worm-codes/CineMood',
+  },
+  {
     name: 'Bank Portal Project',
     image:
       'https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
@@ -37,6 +51,7 @@ export const ProjectList = [
     github: 'https://github.com/worm-codes/Screenshots_To_Drive',
     videoLink: 'https://www.youtube.com/embed/VvZHQJSGnBA',
   },
+
   {
     name: 'Local Guide',
     image: 'https://i.im.ge/2022/07/17/FlEflD.png',
